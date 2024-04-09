@@ -676,6 +676,7 @@ img {
 
 
 .contacts-phone {
+  display: block;
   margin-left: 2px;
   color: inherit;
   font-style: normal;
@@ -1193,6 +1194,7 @@ img {
 
 .checkbox:has(.checkbox-input:disabled) {
   opacity: 30%;
+  pointer-events: none;
 }
 
 .radio {
@@ -1239,6 +1241,7 @@ img {
 
 .radio:has(.radio-input:disabled) {
   opacity: 30%;
+  pointer-events: none;
 }
 
 .checkbox,
